@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42baf132997c6b6489073fc5909cd594, type: 3}
+  m_Name: Hero Complete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 0}
+    text: "\u5C0F\u72D7\u9A91\u58EB\u4F60\u592A\u68D2\u4E86\uFF0C\u8FD9\u662F\u7ED9\u4F60\u7684\u5956\u52B1\u3002"
+    options:
+    - text: "\u8C22\u8C22\u4F60"
+      targetID: 
+      isTask: 1
+    quest: {fileID: 11400000, guid: e0af7c486d44d064c8f54515abe4a1cc, type: 2}

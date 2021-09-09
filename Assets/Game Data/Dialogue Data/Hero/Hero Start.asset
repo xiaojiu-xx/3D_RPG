@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42baf132997c6b6489073fc5909cd594, type: 3}
+  m_Name: Hero Start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece01
+    image: {fileID: 21300000, guid: 39667442e7d98e44e8d427024b12deee, type: 3}
+    text: "\u4F60\u597D\u554A\uFF0C\u72D7\u5B50\u9A91\u58EB\u3002"
+    options:
+    - text: "\u4F60\u597D\u554A~"
+      targetID: 
+      isTask: 0
+    - text: "\u6709\u4EC0\u4E48\u4E8B\u60C5\u5417\uFF1F"
+      targetID: Piece02
+      isTask: 0
+    quest: {fileID: 0}
+  - ID: Piece02
+    image: {fileID: 0}
+    text: "\u6211\u9700\u8981\u4E00\u4E9B\u8611\u83C7\uFF0C\u4F60\u80FD\u5E2E\u6211\u6536\u96C6\u4E00\u4E0B\u5417\uFF1F"
+    options:
+    - text: "\u597D\u7684\uFF0C\u6CA1\u6709\u95EE\u9898\u3002"
+      targetID: 
+      isTask: 1
+    - text: "\u4E0D\u597D\u610F\u601D\uFF0C\u6211\u6CA1\u6709\u5174\u8DA3......"
+      targetID: 
+      isTask: 0
+    quest: {fileID: 11400000, guid: e0af7c486d44d064c8f54515abe4a1cc, type: 2}
