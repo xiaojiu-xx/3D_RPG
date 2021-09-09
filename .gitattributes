@@ -1,0 +1,2 @@
+Assets/Assets[[:space:]]Packs/RPGHero/SRP/FreeRPGHeroesHD.zip filter=lfs diff=lfs merge=lfs -text
+Assets/Assets[[:space:]]Packs/RPGHero/SRP/FreeRPGHeroesLW.zip filter=lfs diff=lfs merge=lfs -text
